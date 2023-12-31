@@ -2,7 +2,7 @@
 
 //import Quick
 //import Nimble
-//import StravaSwift
+//import StravaSwiftKit
 //
 //class TableOfContentsSpec: QuickSpec {
 //    override func spec() {

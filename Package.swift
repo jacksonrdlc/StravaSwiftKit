@@ -4,16 +4,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "StravaSwift",
+    name: "StravaSwiftKit",
     products: [
-        .library(name: "StravaSwift", targets: ["StravaSwift"]),
+        .library(name: "StravaSwiftKit", targets: ["StravaSwiftKit"]),
     ],
     dependencies: [
         .package(url: "https://github.com/Alamofire/Alamofire.git", from: "4.9.0"),
         .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from: "5.0.0"),
     ],
     targets: [
-        .target(name: "StravaSwift", dependencies: ["Alamofire", "SwiftyJSON"]),
-        .testTarget(name: "StravaSwiftTests", dependencies: ["StravaSwift"]),
+        .target(name: "StravaSwiftKit", dependencies: ["Alamofire", "SwiftyJSON"]),
+        .testTarget(name: "StravaSwiftKitTests", dependencies: ["StravaSwiftKit"]),
     ]
 )

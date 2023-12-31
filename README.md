@@ -1,10 +1,10 @@
-# StravaSwift
+# StravaSwiftKit
 
-[![CI Status](http://img.shields.io/travis/mpclarkson/StravaSwift.svg?style=flat)](https://travis-ci.org/mpclarkson/StravaSwift)
-[![codebeat badge](https://codebeat.co/badges/d58ef23f-b2c6-45df-83cb-35af96b6980d)](https://codebeat.co/projects/github-com-mpclarkson-stravaswift)
-[![Version](https://img.shields.io/cocoapods/v/StravaSwift.svg?style=flat)](http://cocoapods.org/pods/StravaSwift)
-[![License](https://img.shields.io/cocoapods/l/StravaSwift.svg?style=flat)](http://cocoapods.org/pods/StravaSwift)
-[![Platform](https://img.shields.io/cocoapods/p/StravaSwift.svg?style=flat)](http://cocoapods.org/pods/StravaSwift)
+[![CI Status](http://img.shields.io/travis/jacksonrdlc/StravaSwiftKit.svg?style=flat)](https://travis-ci.org/jacksonrdlc/StravaSwiftKit)
+[![codebeat badge](https://codebeat.co/badges/d58ef23f-b2c6-45df-83cb-35af96b6980d)](https://codebeat.co/projects/github-com-jacksonrdlc-StravaSwiftKit)
+[![Version](https://img.shields.io/cocoapods/v/StravaSwiftKit.svg?style=flat)](http://cocoapods.org/pods/StravaSwiftKit)
+[![License](https://img.shields.io/cocoapods/l/StravaSwiftKit.svg?style=flat)](http://cocoapods.org/pods/StravaSwiftKit)
+[![Platform](https://img.shields.io/cocoapods/p/StravaSwiftKit.svg?style=flat)](http://cocoapods.org/pods/StravaSwiftKit)
 
 This is a Swift wrapper for the [Strava v3 API](https://strava.github.io/api/).
 
@@ -16,13 +16,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-[StravaSwift](https://github.com/mpclarkson/StravaSwift) is available through the [Swift Package Manager](https://swift.org/package-manager/) and [CocoaPods](http://cocoapods.org).
+[StravaSwiftKit](https://github.com/jacksonrdlc/StravaSwiftKit) is available through the [Swift Package Manager](https://swift.org/package-manager/) and [CocoaPods](http://cocoapods.org).
 
 ### Swift Package Manager
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/mpclarkson/StravaSwift.git", from: "1.0.1")
+    .package(url: "https://github.com/jacksonrdlc/StravaSwiftKit.git", from: "1.0.1")
 ]
 ```
 
@@ -31,12 +31,12 @@ dependencies: [
 To install it, simply add the following line to your Podfile:
 
 ```ruby
-pod "StravaSwift", '~> 1.0.1'
+pod "StravaSwiftKit", '~> 1.0.1'
 ```
 
 ## Quick Start
 
-The full library documentation is available [here](http://cocoadocs.org/docsets/StravaSwift).
+The full library documentation is available [here](http://cocoadocs.org/docsets/StravaSwiftKit).
 
 * First, you must [register your app](http://labs.strava.com/developers/) with Strava and get an OAuth `client id` and `client secret`.
 
@@ -117,8 +117,8 @@ strava.request(Router.athleteActivities(params: params) { (activities: [Activity
 
 ## Author
 
-Matthew Clarkson, mpclarkson@gmail.com
+Jack Rudelic, jacksonrdlc@gmail.com
 
 ## License
 
-StravaSwift is available under the MIT license. See the LICENSE file for more info.
+StravaSwiftKit is available under the MIT license. See the LICENSE file for more info.
