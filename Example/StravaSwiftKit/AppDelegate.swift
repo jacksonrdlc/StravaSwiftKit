@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  StravaSwiftKit
 //
-//  Created by Matthew on 11/11/2015.
+//  Created by Jack on 11/11/2015.
 //  Copyright © 2015 Jack Rudelic. All rights reserved.
 //
 
@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let config = StravaConfig(
             clientId: 8873,
             clientSecret: "97b97b29ede769eec2dc26c52dd281b5a1efe594",
-            redirectUri: "StravaSwiftKit://jacksonrdlc.github.io",
+            redirectUri: "runbuddy://localhost",
             scopes: [.activityReadAll, .activityWrite]
         )
         strava = StravaClient.sharedInstance.initWithConfig(config)

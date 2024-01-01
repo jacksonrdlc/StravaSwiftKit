@@ -27,7 +27,7 @@
 			<string>com.StravaSwiftKit.ios</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>StravaSwiftKit</string>
+				<string>runbuddy</string>
 			</array>
 		</dict>
 	</array>

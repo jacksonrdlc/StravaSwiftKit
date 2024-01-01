@@ -2,7 +2,7 @@
 //  Athelete.swift
 //  StravaSwiftKit
 //
-//  Created by Matthew on 11/11/2015.
+//  Created by Jack on 11/11/2015.
 //  Copyright © 2015 Jack Rudelic. All rights reserved.
 //
 

@@ -16,6 +16,7 @@ class ActivitiesViewController: UITableViewController {
     fileprivate var activities: [Activity] = []
     
     override func viewDidLoad() {
+        print("jack1")
         super.viewDidLoad()
         self.tableView.contentInset = UIEdgeInsets(top: 20, left: 0, bottom: 0, right: 0)
         update()

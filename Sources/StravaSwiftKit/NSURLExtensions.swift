@@ -2,7 +2,7 @@
 //  NSURLExtensions.swift
 //  StravaSwiftKit
 //
-//  Created by Matthew on 13/11/2015.
+//  Created by Jack on 13/11/2015.
 //  Copyright © 2015 Jack Rudelic. All rights reserved.
 //
 
